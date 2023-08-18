@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -5,7 +6,9 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { CardActions, Grid } from '@mui/material';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
+import { useRouter } from "next/navigation";
+
 
 
 

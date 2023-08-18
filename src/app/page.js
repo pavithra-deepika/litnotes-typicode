@@ -1,10 +1,5 @@
-
-import Head from 'next/head'
+"use client"
 import react, { useEffect } from 'react'
-import Box from '@mui/material/Box';
-
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import { useState } from 'react'
 import UserList from './components/UserList'
 import { Grid } from '@mui/material'

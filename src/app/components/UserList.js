@@ -11,7 +11,6 @@ function UserList({users}) {
     justify="flex-start"
     alignItems="flex-start"
 >
-
         {users?.map(user =>
          <Grid item xs={12} sm={6} md={3} >
             <User user={user} key={user.id}/> 
