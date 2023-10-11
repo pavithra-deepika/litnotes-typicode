@@ -1,15 +1,12 @@
-"use client"
 import React, { useState } from 'react'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-// import { useRouter } from 'next/router';
+import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import { CardActions} from '@mui/material';
 import { Button, Grid } from '@mui/material';
 import Link from 'next/link';
-import { useRouter } from "next/navigation";
-
 
 
 
